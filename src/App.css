@@ -36,3 +36,41 @@
     transform: rotate(360deg);
   }
 }
+
+.calc {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;;
+}
+
+.calc > button {
+  padding: .5rem 2rem;
+  font-size: 2rem;
+  border-radius: 10px;
+  border: none;
+}
+
+.inputValue {
+  margin-bottom: 1rem;
+  width: 10rem;
+}
+
+.fibonacciBtn {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.fibonacciBtn > div {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.fibonacciBtn > div > button {
+  padding: .5rem 2rem;
+  font-size: 1rem;
+  border-radius: 50px;
+  border: none;
+}
